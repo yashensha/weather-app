@@ -1,12 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7d58fde0a7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style/style.css">
     <title>Weather App</title>
 </head>
+
 <body>
-    
+
+    <div class="card">
+        <div class="search">
+            <input type="text" class="search-bar" placeholder="Search">
+            <button>
+                <i class="fas fa-search fa-lg"></i>
+            </button>
+        </div>
+        <div class="weather">
+            <h2 class="city">Weather in Madrid</h2>
+            <h1 class="temp">32°C</h1>
+            <img src="" alt="" class="icon">
+            <div class="description">Cloudy</div>
+            <div class="humidity">Humidity: 60%</div>
+            <div class="wind">Wind speed: 6.5 km/h</div>
+
+        </div>
+    </div>
+    <script src="./script/main.js"></script>
 </body>
+
 </html>
