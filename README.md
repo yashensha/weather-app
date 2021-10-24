@@ -15,3 +15,7 @@ document.querySelector(".<search-bar-class>").addEventListener("keyup", function
     }
 })
 ```
+
+#### API
+
+[Open Weather map](openweathermap.org)
