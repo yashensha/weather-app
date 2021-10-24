@@ -50,4 +50,4 @@ document.querySelector(".search-bar").addEventListener("keyup", function (event)
     }
 })
 
-weather.fetchWeather("Madrid")
+weather.fetchWeather("kasaragod")
