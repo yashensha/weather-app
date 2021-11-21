@@ -1,7 +1,26 @@
+@font-face {
+    font-family: Sf-Pro Display;
+    src: url('./fonts/sf-pro-display_regular.ttf');
+}
+
+@font-face {
+    font-family: Sf-Pro;
+    src: url('fonts/sf-pro-display_regular.ttf');
+}
+
+@font-face {
+    font-family: Sf-Pro DisplayB;
+    src: url('fonts/sf-pro-display_semibold.ttf');
+}
+
+@font-face {
+    font-family: Sf-ProT;
+    src: url('fonts/sf-pro-text_thin.ttf');
+}
+
 * {
     box-sizing: border-box;
-    font-family: 'Open Sans',
-        sans-serif;
+    font-family: 'Sf-Pro';
 }
 
 body {
@@ -72,7 +91,7 @@ input.search-bar {
     margin-bottom: 0.5em;
 }
 
-.weather.loading {
+.weater.loading {
     visibility: hidden;
     max-height: 20px;
     position: relative;
@@ -85,4 +104,20 @@ input.search-bar {
     position: absolute;
     top: 0;
     left: 20px;
+}
+
+.city{
+    font-family: Sf-Pro Display;
+}
+
+.temp{
+    font-family: Sf-Pro DisplayB;
+}
+
+.humidity{
+font-family: Sf-ProT;
+}
+
+.wind{
+    font-family: Sf-ProT;
 }
